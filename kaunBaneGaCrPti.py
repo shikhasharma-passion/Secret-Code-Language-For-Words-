@@ -61,29 +61,8 @@ for i in range (0, len(questions)):
     else:
         print("wrong answer!")
         break
-
-
-
 print (f"you take home money is {money}")
 print("thanku for your contribution")
-
-    
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # questions = [
 #   [
 #     "Which language was used to create fb?", "Python", "French", "JavaScript",
