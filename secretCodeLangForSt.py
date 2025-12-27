@@ -1,7 +1,7 @@
 st = input("Enter Message :")   
 words = st.split(" ")
-coding = False
-
+# write 'True' for encoding and 'False' for decoding
+coding = True
 if(coding):
     nwords = []
     for word in words:
