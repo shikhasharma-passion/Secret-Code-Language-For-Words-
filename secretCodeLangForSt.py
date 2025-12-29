@@ -1,7 +1,8 @@
 st = input("Enter Message :")   
 words = st.split(" ")
-# write 'True' for encoding and 'False' for decoding
-coding = True
+coding = input("Enter 1 for Coding or 0 for Decoding :")
+coding = True if (coding=="1") else False
+print(coding)
 if(coding):
     nwords = []
     for word in words:
@@ -26,3 +27,4 @@ else:
             nwords.append(word[::-1])
     print("---Your Decoded String---")      
     print(" ".join(nwords)) 
+
