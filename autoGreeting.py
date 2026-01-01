@@ -36,4 +36,4 @@ elif 16<= timestramp <20:
 else:
     print("good night  ")
 
-print("got the greeting aab jao")
+print("Thanks for your Attention")
